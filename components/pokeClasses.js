@@ -3,66 +3,79 @@ export const pokeClasses = [
     id: "1",
     "name": "bulbasaur",
     backgroundPosition: "0 0",
+    "type": "Grass Poison"
   },
   {
     id: "2",
     "name": "ivysaur",
     backgroundPosition: "-125px 0",
+    "type": "Grass Poison"
   },
   {
     id: "3",
     "name": "venusaur",
     backgroundPosition: "-250px 0",
+    "type": "Grass Poison"
   },
   {
     id: "4",
     "name": "charmander",
     backgroundPosition: "-375px 0",
+    "type": "Fire"
   },
   {
     id: "5",
     "name": "charmeleon",
     backgroundPosition: "-500px 0",
+    "type": "Fire"
   },
   {
     id: "6",
     "name": "charizard",
     backgroundPosition: "-625px 0",
+    "type": "Fire Flying"
   },
   {
     id: "7",
     "name": "squirtle",
     backgroundPosition: "-767px 0",
+    "type": "Water"
   },
   {
     id: "8",
     "name": "wartortle",
     backgroundPosition: "-892px 0",
+    "type": "Water"
   },
   {
     id: "9",
     "name": "blastoise",
     backgroundPosition: "-1017px 0",
+    "type": "Water"
   },
   {
     id: "10", 
     "name": "caterpie",
     backgroundPosition: "-1142px 0",
+    "type": "Bug"
   },
   {
     id: "11", 
     "name": "metapod",
     backgroundPosition: "-1267px 0",
+    "type": "Bug"
   },
   {
     id: "12", 
     "name": "butterfree",
     backgroundPosition: "-1392px 0",
+    "type": "Bug Flying"
   },
   {
     id: "13", 
     "name": "weedle",
     backgroundPosition: "-1517px 0",
+    "type": "Bug"
   },
   {
     id: "14", 

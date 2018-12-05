@@ -23,8 +23,20 @@
       //-   .horizontal
       //-   .vertical
     .green-screen
-      h1.data-name ID: {{$store.state.pokemon.id}} {{$store.state.pokemon.name}}
+      h1.data-name ID: {{$store.state.pokemon.id}} 
+      h2.data-name Name: {{$store.state.pokemon.name}}
       p.data-char Type: {{$store.state.pokemon.type}}
+      p.data-char Type 2: {{$store.state.pokemon.type2}}
+      h1.data-name Stats:
+      p.data-char HP: {{$store.state.pokemon.pokeHp}}
+      p.data-char ATK: {{$store.state.pokemon.pokeAtk}}
+      p.data-char DEF: {{$store.state.pokemon.pokeDef}}
+      p.data-char S.ATK: {{$store.state.pokemon.pokeSAtk}}
+      p.data-char S.DEF: {{$store.state.pokemon.pokeSDef}}
+      p.data-char SPEED: {{$store.state.pokemon.pokeSpeed}}
+
+
+    
 </template>
 
 <script>
