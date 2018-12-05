@@ -23,8 +23,8 @@ export default {
       pokeSAtk:'',
       pokeDef:'',
       pokeAtk:'',
-      pokeHp:''
-
+      pokeHp:'',
+     
     }
   },
   computed: {
@@ -56,13 +56,12 @@ export default {
               pokeDef: data.stats[3].base_stat,
               pokeSAtk: data.stats[2].base_stat,
               pokeSDef: data.stats[1].base_stat,
-              pokeSpeed: data.stats[0].base_stat
+              pokeSpeed: data.stats[0].base_stat,
               
             }
             this.$store.dispatch('showPokemon', pokeData)
           }
         }).catch(err => {
-          console.log(type2)
           this.$store.dispatch('showLoader', false)
         })
     }

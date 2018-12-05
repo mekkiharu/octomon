@@ -25,8 +25,7 @@
     .green-screen
       h1.data-name ID: {{$store.state.pokemon.id}} 
       h2.data-name Name: {{$store.state.pokemon.name}}
-      p.data-char Type: {{$store.state.pokemon.type}}
-      p.data-char Type 2: {{$store.state.pokemon.type2}}
+      p.data-char Type: <em>{{$store.state.pokemon.type}}</em> <em v-if="$store.state.pokemon.type2 !='none' "> and {{$store.state.pokemon.type2}} </em>
       h1.data-name Stats:
       p.data-char HP: {{$store.state.pokemon.pokeHp}}
       p.data-char ATK: {{$store.state.pokemon.pokeAtk}}
