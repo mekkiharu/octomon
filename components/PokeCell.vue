@@ -50,7 +50,7 @@ export default {
               name: data.name,
               sprite: data.sprites.front_default,
               type: data.types[1] == undefined ? data.types[0].type.name: data.types[1].type.name,
-              type2: data.types[1] != undefined ? data.types[0].type.name: "none",
+              type2: data.types[1] != undefined ? 'and ' + data.types[0].type.name: "none",
               pokeHp: data.stats[5].base_stat,
               pokeAtk: data.stats[4].base_stat,
               pokeDef: data.stats[3].base_stat,
